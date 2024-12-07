@@ -16,6 +16,7 @@ ada beberapa api yang disediakan oleh www.e-solat.gov.my sebagaimana di bawah
 Catatan 
 1. jika baca terus dari API e-solat, akan ada latency sekitar 1000 milisaat ke 1300 milisaat bergantung kepada jaringan internet kita.
 2. boleh juga guna cronjob untuk dapatkan attribute dari API esolat kemudian simpan ke dalam database kita sendiri. dengan cara ini, latensy semasa mendapatkan maklumat dapat dikurangkan.
+   
    2.1  Jika lihat json yang disediakan ada dua table, table utama yang menunjukkan zone, servertime, longitut dan latithut diikuti dengan  table waktu solat
 
    ```
